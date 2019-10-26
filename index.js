@@ -7,6 +7,7 @@ function returnLastTwoDrivers(array){
   return array.slice(array.length-2, array.length);
 }
 
+<<<<<<< HEAD
 let selectingDrivers= [returnFirstTwoDrivers,returnLastTwoDrivers]
 
 function createFareMultiplier(x){
@@ -28,4 +29,8 @@ function selectDifferentDrivers(drivers,arraysliced){
   // }else{
   //   return drivers.slice(0, 3)
   // }
+=======
+function selectingDrivers(returnFirstTwoDrivers(),returnLastTwoDrivers()){
+  
+>>>>>>> 982396b03cb9240bd472399bee4bd6ecd5afdd72
 }
